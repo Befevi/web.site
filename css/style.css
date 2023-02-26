@@ -60,11 +60,10 @@ padding-bottom: 10px;
 
 #seccio1 {
     background-image: url("https://thumbs.dreamstime.com/b/paisaje-con-las-monta%C3%B1as-fondo-de-la-naturaleza-colinas-de-con%C3%ADfero-75770452.jpg");
-    height: 100vh;
-    background-color: #cccccc;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
