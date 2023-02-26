@@ -3,38 +3,6 @@ body {
     padding: 0;
 }
 
-#background {
-    background-image: url("https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-
-#content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 2px 2px black;
-}
-
-#seccio1 {
-    
-    height: 100vh;
-    background-color: #cccccc;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 h2 {
     color: rgb(5, 5, 5);
     font-size: 2rem;
@@ -69,3 +37,34 @@ padding-bottom: 10px;
 
 
 }
+#background {
+    background-image: url("https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+#seccio1 {
+    
+    height: 100vh;
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
