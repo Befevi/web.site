@@ -1,25 +1,119 @@
-<!DOCTYPE htmL>
-<html Lang="es">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset= "UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-  <title>BERNAT WEB</title>
+	<meta charset="utf-8">
+	<title>Parallax Effect</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#background {
+			background-image: url("https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg");
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+			position: relative;
+			overflow: hidden;
+		}
+
+		#content {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 3rem;
+			font-weight: bold;
+			text-align: center;
+			text-shadow: 2px 2px black;
+		}
+
+		#section1 {
+			height: 100vh;
+			background-color: #cccccc;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#section2 {
+			height: 100vh;
+			background-color: #666666;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#section3 {
+			height: 100vh;
+			background-color: #cccccc;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#section4 {
+			height: 100vh;
+			background-color: #666666;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#section5 {
+			height: 100vh;
+			background-color: #cccccc;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		h2 {
+			color: white;
+			font-size: 2rem;
+			font-weight: bold;
+			text-align: center;
+			padding: 50px 0;
+			text-shadow: 2px 2px black;
+		}
+	</style>
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>LOGO</h1>
-      <ul>
-        <li><a href="#">INICI</a></li>
-        <li><a href="#">CONTACTES</a></li>
-        <li><a href="#">SOBRE MI</a></li>
-        <li>
-          <a href="#">HORARIS</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <p id="horaris-text">quelcom jeparut</p>
+
+	<div id="background">
+		<div id="content">
+			<h1>Parallax Effect</h1>
+		</div>
+	</div>
+
+	<div id="section1">
+		<h2>Section 1</h2>
+	</div>
+
+	<div id="section2">
+		<h2>Section 2</h2>
+	</div>
+
+	<div id="section3">
+		<h2>Section 3</h2>
+	</div>
+
+	<div id="section4">
+		<h2>Section 4</h2>
+	</div>
+
+	<div id="section5">
+		<h2>Section 5</h2>
+	</div>
+
 </body>
-<html>
+</html>
+
 
