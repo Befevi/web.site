@@ -70,7 +70,7 @@ a:hover{
 }
 
 #background {
-    background-image: url("https://.dreamstime.com/b/paisaje-con-las-monta%C3%B1as-fondo-de-la-naturaleza-colinas-de-con%C3%ADfero-75770452.jpg");
+    background-image: url(https://media.meer.com/attachments/e367a7b0e780d20fc338af54fe0b009003286ac3/store/fill/1090/613/8b110d0843138fbdc34bbe747284d40bc54e5123b6c5f5e924f1fe5cb7c3/El-sol.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -91,7 +91,7 @@ a:hover{
 }
 
 #seccio1 {
-  background-image: url(https://media.meer.com/attachments/e367a7b0e780d20fc338af54fe0b009003286ac3/store/fill/1090/613/8b110d0843138fbdc34bbe747284d40bc54e5123b6c5f5e924f1fe5cb7c3/El-sol.jpg);
+ 
     background-size: cover;
     background-position: center;
     height: 100vh;
