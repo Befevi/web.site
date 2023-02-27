@@ -49,6 +49,7 @@ font-weight:  bold;
 }
 
 h2{
+    align-items: center;
 color: rgb(250, 249, 249);
 font-size: 45px;
 }
