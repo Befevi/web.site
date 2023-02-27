@@ -70,6 +70,7 @@ a:hover{
 }
 
 #background {
+    background-image: url("https://thumbs.dreamstime.com/b/paisaje-con-las-monta%C3%B1as-fondo-de-la-naturaleza-colinas-de-con%C3%ADfero-75770452.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -90,7 +91,7 @@ a:hover{
 }
 
 #seccio1 {
-    background-image: url("https://thumbs.dreamstime.com/b/paisaje-con-las-monta%C3%B1as-fondo-de-la-naturaleza-colinas-de-con%C3%ADfero-75770452.jpg");
+  
     background-size: cover;
     background-position: center;
     height: 100vh;
